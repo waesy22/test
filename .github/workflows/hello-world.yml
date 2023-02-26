@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - slave
 jobs:
   my-job:
     runs-on: ubuntu-latest
